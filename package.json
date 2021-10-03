@@ -1,0 +1,16 @@
+{
+  "name": "myprofile",
+  "homepage":"https://nikhil5-dot.github.io/myprofile",
+  "version": "1.0.0",
+  "description": "'this is my website'",
+  "main": "index.js",
+  "scripts": {
+
+    "deploy": "gh-pages -d Card"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

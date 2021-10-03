@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    font-family:"Poppins",sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    perspective: 1000px;
+}
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    /* position: relative; */
+}
+
+.card {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    width:28.5rem ;
+    border-radius: 30px;
+    padding: 0 5rem;
+    box-shadow: 0 20px  20px rgba(0, 0, 0, 0.2) ;
+}
+.anime{
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anime img {
+    width: 8.5rem;
+    
+    z-index: 2;
+    transition: all 0.75s ease-out;
+    border-radius: 50% ;
+    position: relative;
+    left:3.5rem;
+    /* top:1rem ; */
+    
+}
+
+.circle {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(245, 70, 66, 0.75),
+        rgba(8, 83, 156, 0.75)
+    );
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    
+}
+
+.info h1 {
+    font-size:2.5rem;
+    transition: all 0.75 ease-out;
+    line-height: 2.5rem;
+}
+
+.info h3 {
+    font-size: 1rem;
+    padding: 2rem 0rem;
+    color: #585858;
+    font-weight: lighter;
+    transition: all 0.75 ease-out;
+}
+.skill{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.75 ease-out;
+    
+}
+.skill button {
+    width: 8rem;
+    padding: 1rem 1rem;
+    background: none;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #585858;
+}
+button.active{
+    background-color: #585858;
+    color: white;
+}
+
+.Fight {
+    margin-top: 3rem;
+    transition: all 0.75s ease-out;
+  }
+  .Fight button {
+    width: 100%;
+    padding: 1rem 0rem;
+    background: #f54642;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+  }
